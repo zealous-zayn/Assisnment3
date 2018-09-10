@@ -1,0 +1,88 @@
+:root{
+	font-size: 16px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+}
+
+.button{
+	background-color: #F1C40F;
+	border:1px solid black;
+	font-size: 1.2rem;
+	margin: 2vh;
+	padding: 2vh;	
+	border-radius: 10px;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+.main{
+	display: flex;
+	margin: 1vh 2vh 0 2vh;
+	height: auto;
+	}
+
+.box-first{
+	display: none;
+	width: 30vw;
+	height: auto;
+	padding: 4vh;
+	border: 1px solid grey;
+	background-color: #fdfefe;
+}
+
+.box-second{
+	display: none;
+	width: 30vw;
+	height: auto;
+	padding: 4vh;
+	border: 1px solid grey;
+	background-color: #fdfefe;
+	margin-left: 10vw;
+}
+
+.main-two{
+	margin: 2vh 2vh;
+	width: 60vw;
+}
+
+.coll-first{
+	display: flex;
+	height: 8vh;
+	background-color: #E5E7E9;
+	border: 1px solid black;
+	align-items: center;
+}
+
+.groupFirst{
+	display: none;
+	height: auto;
+	background-color: #fdfefe;
+	border-left: 1px solid black;
+	border-right:1px solid black;
+	align-items: center;
+	padding: 4vh;
+}
+
+#paraThird{
+	border-bottom: 1px solid black;
+}
+
+a{
+	font-size: 1.2rem;
+	padding: 2vh;
+	font-weight: 500;
+}
+
+a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
