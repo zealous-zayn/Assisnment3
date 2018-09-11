@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Assignment5</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Jquery Handler</title>
+	<link rel="stylesheet" type="text/css" href="nav-bar/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-<a href="collapse/index.html" style="font-size: 20px">Collapse</a>
-<a href="modal/index.html" style="font-size: 20px">Modal</a>
-<a href="nav-bar/index.html" style="font-size: 20px">Nav-bar</a>
+	<div class="nav-bar">
+		<div class="min-nav">
+		<a class="nav-brand" href="">Navbar</a>
+		<button class="toggler" type="button"><i class="fas fa-bars"></i></button>
+		</div>
+		<div class="collapse">
+			<div class="search-form">
+				<input  class="search-bar" placeholder="Search">
+				<button type="submit" class="search-btn" href="">Search</button>
+			</div>
+			<ul class="nav">
+				<li><a class="nav-items active" href="" >Home</a></li>
+				<li><a class="nav-items" href="">link</a></li>
+				<li>
+					<a class="nav-items"  role="button" id="dropdown" data-toggle="#dropdown">Examples <i class="fas fa-chevron-circle-down"></i></a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="collapse/index.html">Accordion</a>
+						<a class="dropdown-item" href="modal/index.html">Modal</a>
+					</div>
+				</li>
+				<li><a class="nav-items" href="">Disabled</a></li>
+			</ul>
+		</div>	
+	</div>
+	<h1 style="font-weight: 500;">To see others examples click on examples<h1>
+<script type="text/javascript" src="nav-bar/jquery-min-3.3.1.js"></script>
+<script type="text/javascript" src="nav-bar/style.js"></script>
 </body>
 </html>
